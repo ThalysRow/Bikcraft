@@ -1,0 +1,56 @@
+.intro-bg {
+	box-shadow: inset 0 -7.5rem var(--color-c0);
+}
+
+.intro {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	column-gap: 2.5rem;
+	max-width: 75rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intro-content {
+	align-self: end;
+	padding-bottom: 15rem;
+}
+
+.intro-content h1 {
+	margin-bottom: 2.25rem;
+}
+
+.intro-content p {
+	margin-bottom: 2.5rem;
+}
+
+.intro img {
+	height: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 50rem) {
+	.intro-bg {
+		padding-top: 2.5rem;
+		box-shadow: inset 0 -3.75rem var(--color-c0);
+	}
+	.intro {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+
+	.intro h1 {
+		margin-bottom: 1rem;
+	}
+
+	.intro-content {
+		padding-bottom: 0;
+	}
+
+	.intro img {
+		height: 18.75rem;
+		width: 100%;
+	}
+}
