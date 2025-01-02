@@ -1,3 +1,7 @@
 @import './reset.css';
-@import './global.css';
+@import './utilities/colors.css';
+@import './utilities/typography.css';
+@import './utilities/components.css';
 @import './header.css';
+@import './main.css';
+@import './bikes/bikes-list.css';

@@ -25,10 +25,6 @@
 }
 
 .header-menu a {
-	color: var(--color-c0);
-	font-family: var(--font-family-Poppins);
-	font-size: 1.125rem;
-	line-height: 2rem;
 	padding: 1rem 0;
 }
 
@@ -64,7 +60,6 @@
 	}
 
 	.header-menu a {
-		font-size: 1rem;
 		padding: 0;
 	}
 }
