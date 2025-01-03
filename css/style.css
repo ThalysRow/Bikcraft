@@ -3,5 +3,6 @@
 @import './utilities/typography.css';
 @import './utilities/components.css';
 @import './header.css';
-@import './main.css';
+@import './home/main.css';
 @import './bikes/bikes-list.css';
+@import './home/technology.css';
