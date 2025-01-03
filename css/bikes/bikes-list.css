@@ -5,24 +5,29 @@
 
 .bikes-list h2 {
 	margin-bottom: 2.5rem;
-	max-width: 75rem;
-	padding-left: 1.25rem;
-	padding-right: 1.25rem;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .bikes-list ul {
 	display: flex;
 	gap: 2.5rem;
-	padding: 0 1.25rem;
+	padding: 0 1.25rem 1.25rem 1.25rem;
 	max-width: 87.5rem;
 	margin-left: auto;
 	margin-right: auto;
+	overflow-x: auto;
 }
 
 .bikes-list ul li a {
 	display: block;
+}
+
+.bikes-list ul li a:hover h3::before {
+	width: 1.5rem;
+}
+
+.bikes-list ul li {
+	flex: 1;
+	min-width: 17.5rem;
 }
 
 .bikes-list ul li img {
@@ -42,8 +47,19 @@
 	height: 0.5rem;
 	width: 0.75rem;
 	margin-right: 0.5rem;
+	transition: width 0.2s;
 }
 
 .bikes-list ul li a span {
 	padding-left: 1.25rem;
+}
+
+@media (max-width: 50rem) {
+	.bikes-list {
+		padding-bottom: 3.75rem;
+	}
+
+	.bikes-list ul {
+		gap: 1.25rem;
+	}
 }

@@ -138,5 +138,5 @@ img {
 }
 
 img[src$='.jpg'] {
-	border-radius: 0.3125rem;
+	border-radius: 0.25rem;
 }
