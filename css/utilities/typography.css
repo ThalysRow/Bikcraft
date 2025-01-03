@@ -67,7 +67,7 @@
 }
 
 @media (max-width: 75rem) {
-	.font-h1 {
+	.font-1-xxl {
 		font-size: 3rem;
 	}
 
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 50rem) {
-	.font-h1 {
+	.font-1-xxl {
 		font-size: 2rem;
 	}
 
