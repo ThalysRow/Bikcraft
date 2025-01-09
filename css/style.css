@@ -2,10 +2,11 @@
 @import './utilities/colors.css';
 @import './utilities/typography.css';
 @import './utilities/components.css';
-@import './header.css';
+@import './global/header.css';
 @import './home/main.css';
 @import './bikes/bikes-list.css';
 @import './home/technology.css';
 @import './home/partners.css';
 @import './home/testimony.css';
 @import './insurance/insurance.css';
+@import './global/footer.css';
