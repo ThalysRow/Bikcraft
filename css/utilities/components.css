@@ -16,6 +16,16 @@
 	font: 600 1.125rem/1.33 var(--font-family-Poppins);
 	text-transform: uppercase;
 	box-shadow: 0 0.0625rem 0.125rem rgb(0, 0, 0, 0.1);
+	max-width: max-content;
+}
+
+.button.secondary {
+	background: var(--color-c10);
+	color: var(--color-c02);
+}
+
+.button.secondary:hover {
+	background: var(--color-c09);
 }
 
 .button:hover {
