@@ -1,0 +1,38 @@
+.title-bg {
+	background-color: var(--color-c11);
+	padding: 3.75rem 0;
+}
+
+.title p {
+	margin-bottom: 0.25rem;
+}
+
+@media (max-width: 50rem) {
+	.title-bg {
+		padding: 2.5rem 0;
+	}
+
+	.title p {
+		font-size: 1rem;
+		text-transform: lowercase;
+		font-weight: 400;
+	}
+}
+
+.terms h2 {
+	font-weight: 600;
+	margin-bottom: 1.25rem;
+}
+
+.terms p {
+	margin-bottom: 1.5rem;
+	max-width: 75ch;
+}
+
+.terms {
+	padding: 7.5rem 2.5rem;
+}
+
+.terms p + h2 {
+	margin-top: 2.5rem;
+}
