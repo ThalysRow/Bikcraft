@@ -24,6 +24,25 @@
 	color: var(--color-c02);
 }
 
+.button.arrow {
+	display: flex;
+	align-items: center;
+}
+
+.button.arrow::after {
+	content: '';
+	display: inline-block;
+	width: 1.125rem;
+	height: 0.625rem;
+	margin-left: 0.75rem;
+	background: url(../../img/icones/seta.svg);
+	transition: transform 0.2s;
+}
+
+.button.arrow:hover::after {
+	transform: translateX(0.25rem);
+}
+
 .button.secondary:hover {
 	background: var(--color-c09);
 }
