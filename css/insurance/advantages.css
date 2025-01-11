@@ -1,0 +1,48 @@
+.advantages-bg {
+	background-color: var(--color-c12);
+}
+
+.advantages {
+	padding: 7.5rem 0;
+}
+
+.advantages h2 {
+	margin-bottom: 3.75rem;
+}
+
+.advantages ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(17.5rem, max-content));
+	gap: 2.5rem 5rem;
+}
+
+.advantages h3,
+.advantages img {
+	margin-bottom: 0.5rem;
+}
+
+@media (max-width: 50rem) {
+	.advantages {
+		padding: 3.75rem 0;
+	}
+
+	.advantages h2 {
+		margin-bottom: 2.5rem;
+		padding-left: 2.5rem;
+	}
+
+	.advantages ul {
+		gap: 1.25rem;
+		padding: 0rem 2.5rem;
+	}
+}
+
+@media (max-width: 37.5rem) {
+	.advantages h2 {
+		padding-left: 1.25rem;
+	}
+
+	.advantages ul {
+		padding: 0rem 1.25rem;
+	}
+}
