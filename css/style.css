@@ -14,3 +14,9 @@
 @import './bikes/bikes.css';
 @import './insurance/advantages.css';
 @import './insurance/questions.css';
+@import './bike/bike.css';
+@import '../css/bike/insurance-bike.css';
+@import './contact/contact.css';
+@import './contact/store.css';
+@import './utilities/form.css';
+@import './budget/budget.css';

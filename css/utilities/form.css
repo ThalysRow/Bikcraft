@@ -10,7 +10,7 @@
 
 .form label {
     display: block;
-    font: 600 1rem/1.5 var(--font-family-Poppins);
+    font: 400 1rem/1.5 var(--font-family-Poppins);
     margin-bottom: .25rem;
 }
 
