@@ -1,0 +1,102 @@
+#contact {
+    background-color: var(--color-c01);
+    background: linear-gradient(var(--color-c11) 37.5rem, var(--color-c01) 0rem);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.contact-data, .contact-form {
+    padding: 3.75rem;
+    box-shadow: 0 .0625rem .125rem rgba(0, 0, 0, 0.1);
+}
+
+.contact-data {
+    background-color: var(--color-c12);
+    border-radius: .3125rem 0 0 .3125rem;
+}
+
+.contact-data h2 {
+    margin-bottom: 3.75rem;
+}
+
+.contact-address {
+    margin-bottom: 2rem;
+    background: url("../../img/icones/local.svg") no-repeat 0rem .125rem;
+    padding-left: 1.75rem;
+}
+
+.contact-address p {
+    margin-bottom: .5rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info a {
+    display: flex;
+    gap: .5rem;
+}
+
+.contact-info a img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.contact-info a:nth-child(1) {
+    align-items: center;
+}
+
+.contact-info a:nth-child(2){
+    padding-left: 1.75rem;
+}
+
+.contact-info a:nth-child(3) {
+    padding-top: 2rem;
+    padding-bottom: 3.75rem;
+}
+
+.contact-info a:hover {
+    color: var(--color-c0);
+}
+
+.contact-form {
+    background-color: var(--color-c0);
+    border-radius: 0 .3125rem .3125rem 0;
+}
+
+.contact-networks {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 8.25rem;
+}
+
+@media (max-width: 50rem) {
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-data, .contact-form {
+        padding: 1.25rem;
+    }
+
+    .contact-data {
+        border-radius: .3125rem .3125rem 0 0;
+    }
+
+    .contact-form {
+        border-radius: 0 0 .3125rem .3125rem;
+    }
+
+    .contact-data h2, .contact-info a:nth-child(3) {
+        margin-bottom: 2rem;
+    }
+
+    .contact-networks {
+        padding-bottom: .75rem;
+    }
+}
