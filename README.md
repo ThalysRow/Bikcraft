@@ -6,6 +6,9 @@ Bikcraft é um projeto de site para uma empresa fictícia que vende bicicletas e
 
 O site da Bikcraft oferece uma experiência completa para os usuários que desejam conhecer e adquirir bicicletas elétricas de alta qualidade. O site é composto por várias seções, incluindo uma introdução, lista de bicicletas, tecnologia, parceiros, depoimentos, seguros e informações de contato.
 
+<br>
+<h3 align="left"><a href="https://bikcraft-virid-beta.vercel.app/">Clique para visitar o projeto</a></h3><br><br>
+
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
