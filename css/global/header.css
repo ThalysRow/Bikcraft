@@ -22,6 +22,10 @@
 	color: var(--color-primary-01);
 }
 
+.header-menu a.actived {
+	color: var(--color-primary-01);
+}
+
 .header-menu a {
 	padding: 1rem 0;
 }
